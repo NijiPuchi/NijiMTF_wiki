@@ -45,6 +45,6 @@ jobs:
         with:
           target_branch: pages
           build_dir: docs/.vuepress/dist
-          fqdn: starmoe.wiki
+          fqdn: v1.starmoe.wiki
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
