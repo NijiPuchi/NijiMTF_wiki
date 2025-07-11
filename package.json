@@ -1,7 +1,7 @@
 {
-  "name": "go-cqhttp-docs",
+  "name": "NijiMTF Wiki",
   "version": "2.0.0",
-  "description": "Onebot 的 golang 实现，轻量、原生跨平台",
+  "description": "NijiPuchi — 小小的我们，也拥有彩虹的力量。A cozy and inclusive space for MTF-focused open-source ideas and self-expression.",
   "main": "index.js",
   "repository": "https://github.com/ishkong/go-cqhttp-docs.git",
   "author": "ishkong <i@shkong.cc>",

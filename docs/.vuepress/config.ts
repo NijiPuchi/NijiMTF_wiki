@@ -39,7 +39,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             "@vuepress/plugin-docsearch",
             {
                 apiKey: '4cfe0f33be16c346fed77effff922cf8',
-                indexName: 'go-cqhttp',
+                indexName: 'NijiMTF Wiki',
                 algoliaOptions: {
                     facetFilters: ["lang:en-US"],
                 },
@@ -63,14 +63,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         danger: "警告",
         backToHome: "返回首页",
         navbar: [
-            { text: 'Guide', children: ['/guide/', '/guide/quick_start.md', '/guide/config.md', '/guide/eventfilter.md', '/guide/file.md', '/guide/achieve.md', '/guide/docker.md'] },
-            { text: 'API', children: ['/api/', '/api/guild.md'] },
-            { text: 'Event', children: ['/event/', '/event/guild.md'] },
-            { text: 'CQ Code', link: '/cqcode/' },
-            { text: 'Guild', link: '/guild/'},
-            { text: 'Reference', children: ['/reference/', '/reference/data_struct.md'] },
-            { text: 'Advanced', link: '/advanced/'},
-            { text: 'FAQ', link: '/faq/' }
+            { text: 'Wiki', children: ['/guide/', '/guide/quick_start.md', '/guide/config.md', '/guide/eventfilter.md', '/guide/file.md', '/guide/achieve.md', '/guide/docker.md'] },
+            { text: 'Help', children: ['/api/', '/api/guild.md'] },
+            { text: 'Link', children: ['/event/', '/event/guild.md'] },
+            { text: 'AboutUS', link: '/faq/' }
         ],
         sidebar: "auto",
     },
